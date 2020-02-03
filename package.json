@@ -1,0 +1,38 @@
+{
+  "name": "space-objects",
+  "version": "1.0.0-beta.0",
+  "description": "tracks objects in collision trajectory in space",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "lowdb": "^1.0.0",
+    "shelljs": "^0.8.3",
+    "shortid": "^2.2.14",
+    "tle": "^1.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "build": "./updateScript.sh",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "update": "./updateScript.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivocarbajo/space-objects.git"
+  },
+  "author": "IvoCarbajo",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/ivocarbajo/space-objects/issues"
+  },
+  "homepage": "https://objects.ivocarbajo.com"
+}
